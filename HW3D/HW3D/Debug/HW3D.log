@@ -1,11 +1,4 @@
 ﻿  App.cpp
-  Graphics.cpp
-  Window.cpp
-  WinMain.cpp
   class template optional is only available with C++17 or later.
-  class template optional is only available with C++17 or later.
-  class template optional is only available with C++17 or later.
-D:\University\UWE Yr3\AT\HW3D\HW3D\Window.cpp(53,81): warning C4390: ';': empty controlled statement found; is this the intent?
-D:\University\UWE Yr3\AT\HW3D\HW3D\Graphics.cpp(92,10): warning C4101: 'hr': unreferenced local variable
-D:\University\UWE Yr3\AT\HW3D\HW3D\App.cpp(14,7): warning C4101: 'gResult': unreferenced local variable
+D:\University\UWE Yr3\AT\HW3D\HW3D\App.cpp(30,7): warning C4101: 'gResult': unreferenced local variable
   HW3D.vcxproj -> D:\University\UWE Yr3\AT\HW3D\Debug\HW3D.exe
