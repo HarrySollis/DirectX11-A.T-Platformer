@@ -241,14 +241,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="ColourIndexVS">
-      <Filter>Header Files\Shader</Filter>
-    </FxCompile>
-    <FxCompile Include="ColourIndexPS">
-      <Filter>Header Files\Shader</Filter>
-    </FxCompile>
-  </ItemGroup>
-  <ItemGroup>
     <Image Include="..\..\Images\Diamond-Ore-BlockTexture.png">
       <Filter>Images</Filter>
     </Image>
@@ -263,5 +255,19 @@
     <None Include="..\..\ChilliHW3d\hw3d\hw3d\DXGetErrorDescription.inl">
       <Filter>Dxerr</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="ColourIndexPS.hlsl">
+      <Filter>Header Files\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourIndexVS.hlsl">
+      <Filter>Header Files\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourBlendPS.hlsl">
+      <Filter>Header Files\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ColourBlendVS.hlsl">
+      <Filter>Header Files\Shader</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>

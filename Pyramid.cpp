@@ -49,11 +49,11 @@ Pyramid::Pyramid(Graphics& gfx,
 
 		AddStaticBind(std::make_unique<VertexBuffer>(gfx, model.vertices));
 
-		auto pvs = std::make_unique<VertexShaders>(gfx, L"ColorBlendVS.cso");
+		auto pvs = std::make_unique<VertexShaders>(gfx, L"ColourBlendVS.cso");
 		auto pvsbc = pvs->GetBytecode();
 		AddStaticBind(std::move(pvs));
 
-		AddStaticBind(std::make_unique<PixelShaders>(gfx, L"ColorBlendPS.cso"));
+		AddStaticBind(std::make_unique<PixelShaders>(gfx, L"ColourBlendPS.cso"));
 
 		AddStaticIndexBuffer(std::make_unique<IndexBuffer>(gfx, model.indices));
 

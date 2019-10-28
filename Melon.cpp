@@ -27,11 +27,11 @@ Melon::Melon(Graphics& gfx,
 
 	if (!IsStaticInitialized())
 	{
-		auto pvs = std::make_unique<VertexShaders>(gfx, L"ColorIndexVS.cso");
+		auto pvs = std::make_unique<VertexShaders>(gfx, L"ColourIndexVS.cso");
 		auto pvsbc = pvs->GetBytecode();
 		AddStaticBind(std::move(pvs));
 
-		AddStaticBind(std::make_unique<PixelShaders>(gfx, L"ColorIndexPS.cso"));
+		AddStaticBind(std::make_unique<PixelShaders>(gfx, L"ColourIndexPS.cso"));
 
 		struct PixelShaderConstants
 		{

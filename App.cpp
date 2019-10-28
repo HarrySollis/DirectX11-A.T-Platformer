@@ -26,9 +26,9 @@ App::App()
 		{}
 		std::unique_ptr<Drawable> operator()()
 		{
-			//return std::make_unique<Box>(
+			//return std::make_unique<Pyramid>(
 			//					gfx, rng, adist, ddist,
-			//					odist, rdist, bdist
+			//					odist, rdist
 			//					);
 			switch (typedist(rng))
 			{
@@ -66,7 +66,7 @@ App::App()
 	};
 
 	Factory f(wnd.Gfx());
-	//drawables.reserve(nDrawables);
+	drawables.reserve(nDrawables);
 	std::generate_n(std::back_inserter(drawables), nDrawables, f);
 	
 
